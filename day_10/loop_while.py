@@ -10,4 +10,4 @@ while current_saving < house_deposit_target:
     current_saving = current_saving + monthly_saving
     print(f'Month: {month}: Saving = RM {current_saving:,.2f}')
 
-print(f'Congrats!\n You reach your house deposit target RM {house_deposit_target:,.2f} in {month} months.')
+print(f'Congrats!\nYou reach your house deposit target RM {house_deposit_target:,.2f} in {month} months.')
