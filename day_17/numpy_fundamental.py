@@ -4,8 +4,8 @@ months = ["Jan", "Feb", "March", "Apr", "May"]
 
 savings = np.array([300, 450, 250, 500, 400])
 
-for month, saving in zip(months, savings):
-    print(f"{month}: RM{saving:.2f}")
+for i in range(len(months)):
+    print(months[i], savings[i])
 
 print(f"\nTotal: RM{np.sum(savings):.2f}")
 print(f"Average: RM{np.mean(savings):.2f}")
